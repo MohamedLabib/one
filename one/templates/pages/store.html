@@ -1,0 +1,38 @@
+{% extends 'pages/main.html' %}
+{% load static %}
+
+{% block content %}
+
+	<div class="row">
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/store.png' %}">
+			<div class="box-element product"></div>
+				<h6><strong>Product</strong></h6>
+				<button class="btn btn-outline-secondary add-btn">Add To Cart</button>
+				<a class="btn btn-outline-success" href="#">veiw</a>
+				<h4 style="display: inline-block; float: right;">20$</h4>
+				<hr>
+		</div>
+		
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/store.png' %}">
+			<div class="box-element product"></div>
+			<h6><strong>Product</strong></h6>
+			<button class="btn btn-outline-secondary add-btn">Add To Cart</button>
+			<a class="btn btn-outline-success" href="#">Veiw</a>	
+			<h4 style="display: inline-block; float: right;">20$</h4>
+			<hr>
+		</div>
+		
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/store.png' %}">
+			<div class="box-element product"></div>
+			<h6><strong>Product</strong></h6>
+			<button class="btn btn-outline-secondary add-btn">Add To Cart</button>
+			<a class="btn btn-outline-success" href="#">Veiw</a>
+			<h4 style="display: inline-block; float: right;">20$</h4>
+			<hr>
+		</div>
+	</div>
+
+{% endblock content %}
